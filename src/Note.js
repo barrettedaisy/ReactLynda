@@ -16,6 +16,9 @@ class Note extends Component {
 		this.renderDisplay = this.renderDisplay.bind(this)
 		this.save = this.save.bind(this)
 	}
+
+	
+
 	edit() {
 		this.setState({
 			editing: true
